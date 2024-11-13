@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #525549; /* Tünd boz fon */
+  
+    color: #ffffff;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333333; /* Tünd fon */
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffd700; /* Sarı ton */
+}
+
+header .beta {
+    margin-left: 0.5rem;
+    color: #cccccc; /* Açıq boz */
+    font-size: 0.8rem;
+}
+
+nav a, .language, .sign-in {
+    color: #ffd700; /* Sarı vurğu */
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sign-in {
+    background-color: #ffd700; /* Sarı düymə */
+    color: #000000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.language {
+    background: none;
+    border: none;
+    color: #ffd700; /* Sarı vurğu */
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.main-content h2 {
+    color: #ffd700; /* Sarı vurğu */
+    font-size: 1.2rem;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    color: #ffd700; /* Sarı vurğulu başlıq */
+}
+
+.main-content p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #eeeeee; /* Ağ rəngə yaxın açıq ton */
+}
+
+.pricing {
+    font-size: 1rem;
+    color: #ffd700; /* Sarı vurğu */
+    margin: 1rem 0;
+}
+
+.pricing span {
+    display: block;
+    font-size: 1.2rem;
+    color: #ffd700; /* Sarı vurğulu qiymət */
+}
+
+.play-now {
+    margin-top: 1rem;
+    background-color: #ffd700; /* Sarı düymə */
+    color: #000000; /* Qara mətn */
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.7); /* Sarı düyməyə parıltı */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.character-image, .effect-image {
+    background-color: #444444; /* Tünd boz fon */
+    color: #ffd700; /* Sarı vurğu */
+    padding: 3rem;
+    margin: 0.5rem;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
